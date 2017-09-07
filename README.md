@@ -81,7 +81,7 @@ Each message is saved in a node that stores the text and the length of the text.
 To manage the multiple instances there is a linked list for each instance, so there is an array of linked lists.
 These lists are dynamic structures that change them length and contents according to behaviour in runtime. 
 Lists are used because they are efficient in adding and removing messages, whereas the array is used because the maximum number of instances is 256, so it is not very expensive use it.  
-To use the linked list correctly there is a semaphore (one for reading and one for writing) for each list, so it possible the reading and the writing on the slot in concurrency and without loss.
+To use the linked list correctly there are semaphores (one for reading and one for writing) for each list, so it possible the reading and the writing on the slot in concurrency and without loss.
 
 # Source Code
 
