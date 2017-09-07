@@ -7,12 +7,12 @@ matricola: 1598460
 
 # Index
 
-1. [Introduction](##introduction)
-2. [Installation](##installation)
-3. [Architecture](##architecture)
-4. [Source Code](##source-code)
-5. [How To Use](##how-to-use)
-6. [Contacts](##contacts)
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Architecture](#architecture)
+4. [Source Code](#source-code)
+5. [How To Use](#how-to-use)
+6. [Contacts](#contacts)
 
 
 
