@@ -7,23 +7,24 @@ matricola: 1598460
 
 # Index
 
-1. [Introduction](###Introduction)
-2. [Installation](###Installation)
-3. [Architecture](###Architecture)
-4. [Source Code](###Source_Code)
-5. [How To Use](###How_To_Use)
-6. [Contacts](###Contacts)
+1. [Introduction](##introduction)
+2. [Installation](##installation)
+3. [Architecture](##architecture)
+4. [Source Code](##source-code)
+5. [How To Use](##how-to-use)
+6. [Contacts](##contacts)
 
 
 
-### Introduction
+## Introduction
 
 This is a special device file that is accessible according to FIFO style semantic (via open/close/read/write services), but offering an execution semantic of read/write services such that any segment that is posted to the stream associated with the file is seen as an independent data unit (a message), thus being posted and delivered atomically (all or nothing) and in data separation (with respect to other segments) to the reading threads.
 
 The device file is multi-instance (by having the possibility to manage 256 different instances) so that multiple FIFO style streams (characterized by the above semantic) can be concurrently accessed by active processes/threads.
 The device file also supports *ioctl* commands in order to define the runtime behaviour of any I/O session targeting it (such as whether read and/or write operations on a session need to be performed according to blocking or non-blocking rules).
 
-### Installation
+## Installation
+
 
 You can use the **automatic** way to install:
  
@@ -74,7 +75,7 @@ $ sudo chmod 666 /dev/<device-name>
 
 
 
-### Architecture
+## Architecture
 
 The mail slots are implemented by a linked list data structure according to FIFO style semantic: all new messages are put in tail and the messages to read are taken from the head.
 Each message is saved in a node that stores the text and the length of the text.
@@ -99,7 +100,7 @@ configuration file. You can edit it to change some settings of the project (reme
 makefile used for compilation (command `make` from terminal), execution (`make run`) and elimination of executables (`make clean`).
 
 
-### How To Use
+## How To Use
 After installing the module, you can `open` a descriptor file associated to the special file and you can use `read` and `write` operations to use the mail slot.  Then you can `close` the descriptor file.
 It is possible change the runtime behaviour using `ioctl` commands (input/output control).
 You can change:
@@ -115,7 +116,7 @@ The codes of *ioctl* commands are respectively:
 * `#define CMD_BLOCKING_WRITE  5`
 
 
-### Contacts
+## Contacts
 
  Link of the project: https://github.com/jacopo1395/Linux-Mail-Slots
 
