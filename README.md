@@ -66,11 +66,11 @@ $ make
 ```
 $ sudo insmod mail_slot.ko
 $ dmesg
-$ sudo mknod /dev/<device-name> c <Major-number> 0
-$ sudo chmod 666 /dev/<device-name>
+$ sudo mknod /dev/<file-name> c <Major-number> <minor-number>
+$ sudo chmod 666 /dev/<file-name>
 ```
 
-
+I recommend using *ms0* as a <file-name> and *0* as <minor-number>.
 
 
 
