@@ -56,7 +56,7 @@ $ ./start.sh
 
 ---
 
-If you prefer install the module **manually** follow these steps:
+If you prefer to install the module **manually** follow these steps:
  1. Enter in `module/` folder and compile with `make` command
 ```
 $ cd module/
