@@ -9,8 +9,8 @@
 #define MAX_INSTANCES 256 // const
 
 //default values
-#define MAX_MSG_LEN     10      // this is also the upper bound
-#define MAX_MSG         5       // this is also the upper bound
+#define MAX_MSG_LEN     50      // this is also the upper bound
+#define MAX_MSG         512     // this is also the upper bound
 #define BLOCKING_READ   0
 #define BLOCKING_WRITE  0
 
