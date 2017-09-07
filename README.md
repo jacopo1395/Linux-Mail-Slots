@@ -10,8 +10,8 @@ matricola: 1598460
 1. [Introduction](###Introduction)
 2. [Installation](###Installation)
 3. [Architecture](###Architecture)
-4. [Source Code](###Source)
-5. [How To Use](###How)
+4. [Source Code](###Source_Code)
+5. [How To Use](###How_To_Use)
 6. [Contacts](###Contacts)
 
 
