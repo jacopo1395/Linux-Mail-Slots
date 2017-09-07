@@ -118,7 +118,7 @@ The codes of *ioctl* commands are respectively:
 
 # Contacts
 
- Link of the project: https://github.com/jacopo1395/Linux-Mail-Slots
+ Link to the project: https://github.com/jacopo1395/Linux-Mail-Slots
 
 ---
 Jacopo Carlini
