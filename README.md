@@ -115,6 +115,7 @@ The codes of *ioctl* commands are respectively:
 * `#define CMD_BLOCKING_READ   4`
 * `#define CMD_BLOCKING_WRITE  5`
 
+You can find some example of usage in [user](https://github.com/jacopo1395/Linux-Mail-Slots/tree/master/user) directory of this project.
 
 # Contacts
 
