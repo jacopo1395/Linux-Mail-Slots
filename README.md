@@ -106,8 +106,8 @@ It is possible change the runtime behaviour using `ioctl` commands (input/output
 You can change:
  *	The maximum number of messages, but it can’t exceed `MAX_MSG`. This value (the default value is **50**) is present in the configuration file (config.h).
 *	The maximum length of the text of the message, but it can’t exceed `MAX_MSG_LEN`. This value (the default value is **512**) is present in the configuration file (config.h).
-*	Enable/Disable the blocking reading. If it is enable the process/thread waiting until it reads a message. Use **0** disable and **1** to enable.
-*	Enable/Disable the blocking writing.  If it is enable the process/thread waiting until it writes a message. Use **0** disable and **1** to enable.
+*	Enable/Disable the blocking reading. If it is enable the process/thread waiting until it reads a message. Use **0** to disable and **1** to enable.
+*	Enable/Disable the blocking writing.  If it is enable the process/thread waiting until it writes a message. Use **0** to disable and **1** to enable.
 
 The codes of *ioctl* commands are respectively:
 * `#define CMD_MAX_MSG_LEN     1`
